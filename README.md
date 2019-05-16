@@ -1,23 +1,32 @@
-# project2
 
-Alert for wrong email or password on sign in page. 
+# taskScan
 
-Cleaned up CSS from HOME page and added it to homeStyle.css file.
 
-Cleaned up CSS from EMPLOYER page and added it to employer.css file
+## What is taskScan?
 
-Cleaned up CSS from EMPLOYEE page and added it to employee.css file
+# taskScan is an application that can be used by people who are both looking for some quick and easy help with a job, and for anyone who is looking to make some quick extra cash!
 
-Set up proper Database structure  ONE - database as of now has 2 tables users/jobs
+## How to use taskScan
 
-Created a working post route to the DB for Jobs {
+### A new user will need to create a new login. Upon successful creation of a login, the user will be directed to a page where they can either choose to post a job, or to find a job to accept. 
 
-    - we can now post to database to populate jobs table-
-    -api routes cleaned and fixed
-    -links in html fit to jquery
-    - added routes for external js for most files
-}
- gvet route for jobs and users in API ROUTES
-cleaned up expired js code in many files
 
+### If they decide to go the employer route to post a job, they will be directed to a page where they can post their job details on a form. 
+
+
+### Conversely, the user can choose to search for posted jobs. The jobs can be sorted by category. The filter will return the results and the user can accept the job that they desire. 
+
+
+## Technologies used 
+
+* Materialize
+* Handlebars 
+* Node
+* Passport.js 
+* Sequelize
+* mySQL
+
+# Deployed version
+
+(https://guarded-citadel-97781.herokuapp.com/)
 https://youtu.be/fEq12k9iDKw
